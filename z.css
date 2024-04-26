@@ -1,0 +1,29 @@
+/* Προσθέτουμε κάποιες αλλαγές για τα νέα στοιχεία και το κουμπί */
+main {
+  text-align: center;
+  animation: fadeIn 1s ease;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 15.0s ease;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

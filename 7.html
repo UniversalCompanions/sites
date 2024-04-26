@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ζ Οικουμενική Σύνοδος</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+	  background-image: url('mnimi-tis-z-oikoymenikis-synodoy.jpg');
+		background-size: cover;
+		background-position: center;
+		background-color: rgba(255, 255, 255, 0.7);
+	  }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	  transition: transform 10.5s ease;
+	  transition: transform 0.3s ease;
+    }
+	.containers {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	  text-align: center;
+	  transition: transform 0.3s ease;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      color: #333;
+    }
+
+    main {
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding-top: 20px;
+      border-top: 1px solid #ccc;
+    }
+
+    footer p {
+      font-size: 14px;
+      color: #666;
+    }
+
+    
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px 25px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+    }
+
+    .btn::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 300%;
+      height: 300%;
+      background-color: rgba(255, 255, 255, 0.2);
+      transition: all 0.6s ease;
+      border-radius: 50%;
+      z-index: 0;
+      transform: translate(-50%, -50%);
+    }
+
+    .btn:hover::before {
+      width: 0;
+      height: 0;
+    }
+
+    .btn span {
+      z-index: 1;
+      position: relative;
+    }
+
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes wave {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: 100% 0;
+      }
+    }
+	        /* Animations */
+        @keyframes fadeInBackground {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 0.9;
+            }
+        }
+
+        @keyframes slideInHeader {
+            from {
+                top: -50px;
+            }
+            to {
+                top: 0;
+            }
+        }
+
+        @keyframes fadeInListItems {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInMain {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes scaleInSections {
+            from {
+                transform: scale(0);
+            }
+            to {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes slideInFooter {
+            from {
+                bottom: -50px;
+            }
+            to {
+                bottom: 0;
+            }
+        }
+		
+		
+		@keyframes fadeInText {
+			from {
+				opacity: 0;
+				transform: translateY(20px);
+			}
+			to {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+
+		
+		@keyframes slideUp {
+			from {
+				transform: translateY(20px);
+			}
+			to {
+				transform: translateY(0);
+			}
+		}
+		
+		}
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+            animation: fadeInListItems 1s ease-in-out forwards;
+        }
+        nav ul li a {
+            color: #000;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: border-bottom 0.3s ease-in-out;
+        }
+        nav ul li a:hover {
+            border-bottom: 2px solid #000;
+        }
+		
+		
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+	
+      <h1>Z Οικουμενική Σύνοδος</h1>
+	  <div class="containers">
+            
+            <nav>
+                <ul>
+                    <li><a href="#history">Ιστορία</a></li>
+                    <li><a href="#topics">Θέματα</a></li>
+                    <li><a href="#participants">Συμμετέχοντες</a></li>
+                    <li><a href="#news">Νέα</a></li>
+					 <li><a href="index.html">Πίσω</a></li>
+					 <br>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+      <p>Ή Ζ’ Οικουμενική Σύνοδος συνήλθε στη Νίκαια της Βιθυνίας από τις 24 Σεπτεμβρίου εως τις 13 ‘Οκτωβρίου 787, με πρωτοβουλία της αυτοκράτειρας Ειρήνης, η όποια ασκούσε χρέη άντιβασιλέως. ‘Υπό την προεδρία του Πατριάρχου Κωνσταντινουπόλεως αγίου Ταρασίου [25 Φεβρ.] συγκεντρώθηκαν τριακόσιοι πενήντα ορθόδοξοι επίσκοποι, και σε αυτούς προστέθηκαν άλλοι δεκαεπτά ιεράρχες, οι όποιοι άποκήρυξαν την αίρεση των εικονομάχων.
+
+Πλάι στους αντιπροσώπους του Πάπα Ρώμης και των Πατριαρχών ‘Αντιοχείας και ‘Ιεροσολύμων, οι μοναχοί -οί όποιοι υπέφεραν δεινούς διωγμούς επί βασιλείας των είκονομάχων αυτοκρατόρων Λέοντος Γ’ Ίσαύρου (717-741) και Κωνσταντίνου Ε’ Κοπρωνύμου (741-775)— αποτελούσαν έντονη παρουσία• ήταν περίπου εκατόν τριάντα έξι.
+
+Μετά από επιμελή προετοιμασία, οι Πατέρες της Συνόδου αναθεμάτισαν τους αιρετικούς, οι όποιοι για περισσότερα από πενήντα έτη απαγόρευαν στους ορθόδοξους χριστιανούς να τιμούν τις σεπτές εικόνες του Χρίστου και των αγίων Του διότι αύτό αποτελούσε δήθεν ειδωλολατρία. Έθεσαν ετσι τέρμα στην πρώτη περίοδο της εικονομαχίας, η οποία δμως ξέσπασε έκ νέου λίγα χρόνια αργότερα επί Λέοντος Ε’ ‘Αρμενίου (813-820) και δεν σταμάτησε οριστικά παρά το 843, χάρις στην αυτοκράτειρα Θεοδώρα και στον πατριάρχη άγιο Μεθόδιο [14 Ίουν.]. οι άγιοι Πατέρες άναθεμάτισαν τους αιρετικούς πατριάρχες ‘Αναστάσιο, Κωνσταντίνο και Νικήτα, άποκήρυξαν τη δήθεν οικουμενική σύνοδο πού συνεκλήθη στο άνάκτορο της Ίερείας με πρωτοβουλία του Κωνσταντίνου Ε’ το 754, και κήρυξαν αιωνία τη μνήμη των άγιων υπερμάχων της ‘Ορθοδοξίας: του πατριάρχου αγίου Γερμανού (715-730) [12 Μαΐου], του άγίου ‘Ιωάννου του Δαμασκηνού [4 Δεκ.], του Γεωργίου Κύπρου, και όλων όσοι είχαν υποστεί βασάνους και εξορίες ώς υπέρμαχοι των αγίων εικόνων. Στον Όρο της πίστεως πού ανέγνωσαν στην έβδομη και τελευταία συνεδρία της Συνόδου, οι Πατέρες διεκήρυξαν:
+
+«Ορίζομεν συν ακριβεία πάση και εμμελεία, παραπλησίως τω τύπω του τιμίου και ζωοποιού σταυρού ανατίθεσθαι τας σεπτάς και αγίας εικόνας, τάς έκ χρωμάτων και ψηφίδος και ετέρας ύλης επιτηδείως εχούσης, εν ταις αγίαις του Θεού εκκλησίαις, εν ιεροίς σκεύεσι και εσθήσι, τοίχοις τε και σανίσιν, οίκοις τε και οδοίς• της τε του Κυρίου και Θεού και Σωτήρος ημών Ιησού Χριστού εικόνος, και της αχράντου δεσποίνης ημών της αγίας Θεοτόκου, τιμίων τε αγγέλων, και πάντων άγιων και οσίων άνδρών. Όσω γάρ συνεχώς δι’ εικονικής ανατυπώσεως ορώνται, τοσούτον και οι ταύτας θεώμενοι διανίστανται προς την των πρωτοτύπων μνήμην τε και επιπόθησιν, και ταύταις άσπασμόν και τιμητικήν προσκύνησαν απονέμειν, ού μην την κατά πίστιν ημών αληθινήν λατρείαν, η πρέπει μόνη τη θεία φύσει- άλλ’ ον τρόπον τω τύπω του τιμίου και ζωοποιού σταυρού και τοις αγίοις εύαγγελίοις και τοις λοιποίς ιεροίς αναθήμασι, και θυμιαμάτων και φώτων προσαγωγήν προς την τούτων τιμήν ποιεισθαι, καθώς και τοις αρχαίοις εύσεβώς είθισται. η «γαρ της εικόνος τιμή έπι το πρωτότυπον διαβαίνει», κάι ο προσκυνών την εικόνα, προσκυνεί εν αυτή του εγγραφομένου την υπόστασιν. Ούτω γαρ κρατύνεται η των άγιων Πατέρων ημών διδασκαλία, είτουν παράδοσις της Καθολικής Εκκλησίας, της από περάτων εις πέρατα δεξαμένης το εύαγγέλιον».</p>
+      <button class="btn" onclick="animateButton()"><span>Πατήστε για επιπλέον πληροφορίες</span></button>
+    </main>
+
+  </div>
+  <script>
+    function animateButton() {
+      var button = document.querySelector('.btn');
+      button.style.animation = 'rotate 2s linear 2 forwards, wave 1s infinite';
+      setTimeout(function(){
+        button.style.animation = 'wave 1s infinite';
+      }, 4000);
+    }
+  </script>
+</body>
+</html>
